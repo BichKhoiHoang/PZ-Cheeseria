@@ -1,0 +1,23 @@
+version: '3'
+services:
+  backend:
+    build: ./server
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./server:/app
+    environment:
+      - NODE_ENV=production
+    depends_on:
+      - db
+
+  frontend:
+    build: ./client
+    ports:
+      - "3000:80"  # Map container's port 80 (Nginx) to your local port 3000
+    volumes:
+      - ./client:/app
+    environment:
+      - NODE_ENV=production
+
+  
