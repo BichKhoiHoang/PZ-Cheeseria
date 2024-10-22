@@ -1,6 +1,6 @@
 # PZ-Cheeseria
 
-project-root/
+project-root/*
 │
 ├── server/
 │   ├── Dockerfile        <-- Dockerfile for backend
@@ -35,5 +35,4 @@ To set up database, run
 mysql -u root -p < cheeses.sql 
 
 The website:
-<img width="1293" alt="Screenshot 2024-10-15 at 11 03 33 PM" src="https://github.com/user-attachments/assets/5a22f48a-a95b-4a37-a25c-729376f01066">
 <img width="1680" alt="Screenshot 2024-10-22 at 9 51 42 AM" src="https://github.com/user-attachments/assets/3e7f67be-eea0-4052-99be-233e4ee878d6">
