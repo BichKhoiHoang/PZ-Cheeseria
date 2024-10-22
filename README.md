@@ -1,33 +1,9 @@
 # PZ-Cheeseria
 
-project-root/*
-│
-├── server/
-│   ├── Dockerfile        <-- Dockerfile for backend
-│   ├── index.js          <-- Backend server code
-│   ├── package.json      <-- Node.js dependencies
-│   ├── routes/
-|        ├── data.js      <-- API Router handler
-│   └── public/ 
-|        ├── images       <-- Cheese images
-│   ├── swagger.yaml      <-- Swagger Documentation
-│   ├── cheeses.sql       <-- Create and Insert cheeses data
-│
-├── client/
-│   ├── src/
-|        ├── Components      
-|              ├── Calculator.js      <-- function to calculate cheese price
-│   ├── package.json                  <-- React app (frontend)
-│   └── tailwind.config.js            <-- Tailwind Config
-│   ├── package.json                  <-- Dependencies
-│   ├── App.css
-│   ├── App.js
-│   ├── Dockerfile                    <-- Dockerfile for frontend
-└── docker-compose.yml                <-- Use for multi-container setup
+<img width="645" alt="Screenshot 2024-10-22 at 1 53 53 PM" src="https://github.com/user-attachments/assets/e8ac41a1-6178-4dd6-be07-42c996a19b2f">
 
 Front-end: using React, Tailwind CSS and Daisy UI
 Back-end: using Node JS and Express
-
 Database: using mysql2
 
 
