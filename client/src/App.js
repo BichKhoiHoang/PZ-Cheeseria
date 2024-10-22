@@ -1,8 +1,5 @@
 import React from "react";
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-// import NavBar from "./components/NavBar";
-// import Home from "./pages/Home";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import Calculator from "./components/Calculator";
