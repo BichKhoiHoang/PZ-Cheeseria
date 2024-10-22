@@ -4,7 +4,7 @@ const mysql = require("mysql2");
 const path = require("path");
 const dataRouter = require("./routes/data"); // Ensure you have your routes set up
 const app = express();
-const port = 5000;
+const port = 5001;
 
 const swaggerUI = require("swagger-ui-express");
 const YAML = require("yamljs");
