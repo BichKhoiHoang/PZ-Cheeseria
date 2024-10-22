@@ -9,9 +9,8 @@ const port = 5001;
 const swaggerUI = require("swagger-ui-express");
 const YAML = require("yamljs");
 
-var swaggerDocument = YAML.load("./swagger.yaml");
-app.use("/", swaggerUI.serve);
-app.get("/", swaggerUI.setup(swaggerDocument));
+const swaggerDocument = YAML.load("./swagger.yaml");
+app.use("/docs", swaggerUI.serve, swaggerUI.setup(swaggerDocument));
 
 // MySQL connection
 const connection = mysql.createConnection({
